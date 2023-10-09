@@ -1,5 +1,5 @@
-<h1>BIRTHDAY COUNTDOWN</h1>
-Date (15 Aug 2021)
+<h1>YOUR BIRTHDAY COUNTDOWN</h1>
+Date (09 OCT 2023)
 <br>
 
 Hello everyone....
@@ -33,7 +33,7 @@ I use date javascript methods and a few global functions with variables.
 
 <p>MORE OF MY UGLY PROJECTS IN<br>
 <a href="https://github.com/JohnMcKrazy">GitHub<a><br>
- <a href="https://codepen.io/JohnMcKrazy">Codepen<a></p>
+ <a href="https://www.behance.net/jg_john_design">Behance<a></p>
 <hr>
 <div align="right">
 
