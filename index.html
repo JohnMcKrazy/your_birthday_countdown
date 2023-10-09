@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Your Birthday Countdown</title>
+        <meta name="description" content="" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./style.min.css" />
+    </head>
+    <body>
+        <dialog class="modal">
+            <h1>Por favor Ingresa Una Fecha</h1>
+            <button type="button" class="close_btn">Intentar de nuevo</button>
+        </dialog>
+        <section class="countdown_section">
+            <h1 class="contdown_title">your birthday countdown</h1>
+            <div class="birthday_selector">
+                <input type="date" class="input_date" />
+                <button type="button" class="btn">set birthday</button>
+            </div>
+            <h2 class="contdown_subtitle">your birthday</h2>
+            <div class="countdown_count_container mb">
+                <div class="digit_container">
+                    <h3 class="digit_count myDay">00</h3>
+                    <h3 class="date_text">Day</h3>
+                </div>
+                <div class="digit_container">
+                    <h3 class="digit_count myMonth">00</h3>
+                    <h3 class="date_text">Month</h3>
+                </div>
+            </div>
+            <h2 class="contdown_subtitle">TIME LEFT</h2>
+            <div class="countdown_count_container">
+                <!--!COUNTDOWN DIGIT MINUTE START-->
+                <div class="digit_container">
+                    <h3 class="digit_count minute">00</h3>
+                    <h3 class="date_text">Minutes</h3>
+                </div>
+                <!--!COUNTDOWN DIGIT HOUR START-->
+                <div class="digit_container">
+                    <h3 class="digit_count hour">00</h3>
+                    <h3 class="date_text">Hours</h3>
+                </div>
+                <!--!COUNTDOWN DIGIT DAY START-->
+                <div class="digit_container">
+                    <h3 class="digit_count day">00</h3>
+                    <h3 class="date_text">Days</h3>
+                </div>
+                <!--!COUNTDOWN DIGIT MONTHS START-->
+                <div class="digit_container">
+                    <h3 class="digit_count months">00</h3>
+                    <h3 class="date_text">Months</h3>
+                </div>
+            </div>
+        </section>
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
